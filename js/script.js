@@ -47,13 +47,14 @@ function genRepo(user) {
                         }
 
                         // Puts repo information into div
-                        $("#repo-box").append("<a href='" + repo_url + "' target='_blank'><div class='repo-item'><h1 class='title'>" +
-                            username + "/" +
-                            repo_name + "</h1><p class='description'>" +
-                            repo_description + "</p>" + "<div class='bottom'><div class='language'><span class='img' uk-icon='code' class='uk-icon'></span>" +
-                            repo_language + "</div>  <div class='star'><span class='img' uk-icon='star' class='uk-icon'></span>" +
-                            repo_stars + "  </div> <div class='fork'><span class='img' uk-icon='git-fork' class='uk-icon'></span>" +
-                            repo_forks + "</div></div></div>");
+                        $("#repo-box").append("<a href='https://hackhpc.github.io/" + repo_name + "' target='_blank'><div class='repo-item'><h1 class='title'>" +
+                            //username + 
+                            "/" +
+                            repo_name + "</h1><p class='description'>" + repo_description + "</p> </h1> <a href='" + repo_url + "'target='_blank'><span class='img' uk-icon='github' class='uk-icon'></span></a>" + //"<div class='bottom'><div class='language'><span class='img' uk-icon='code' class='uk-icon'></span>" +
+                            // repo_language + "</div>  <div class='star'><span class='img' uk-icon='star' class='uk-icon'></span>" +
+                            //repo_stars + "  </div> <div class='fork'><span class='img' uk-icon='git-fork' class='uk-icon'></span>" +
+                            //repo_forks + 
+                            "</div></div></div>");
                     }
                 }
             });

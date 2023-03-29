@@ -11,7 +11,7 @@
 }
 
 html {
-    background-color: #24252a;
+    background-color: #ffffff;
 }
 
 body {
@@ -69,7 +69,7 @@ body {
     text-align: center;
     margin: 30px;
 }
-
+/*
 #back a {
     width: 100px;
     margin-top: 20px;
@@ -81,6 +81,7 @@ body {
     color: #fff;
     cursor: pointer;
 }
+*/
 
 /*  Modify code bolow to modify to adjust styling for the repositories. The above css is for other elements */
 .error-box {
@@ -118,7 +119,12 @@ body {
 }
 .title {
     font-size: 30px;
-    color: #008aa4;
+    color: #23a1db;
+}
+
+.repo {
+    font-size: 18px;
+    color: lightgrey;
 }
 
 .bottom {
